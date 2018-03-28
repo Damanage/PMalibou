@@ -1,0 +1,280 @@
+@font-face{
+	font-family: Thunder;
+	src:url(../fonts/Thunder.otf);
+}
+@font-face{
+	font-family: Lobster;
+	src:url(../fonts/Lobster.ttf);
+}
+@font-face{
+	font-family: Gag;
+	src:url(../fonts/Gag.otf);
+}
+@font-face{
+	font-family: Roboto;
+	src:url(../fonts/Roboto-Medium.ttf);
+}
+
+
+body{
+	margin: 0;
+}
+#hr{
+	height: 800px;
+}
+section{
+	overflow: hidden;
+	background-color: #666;
+	position: relative;
+}
+a, button{
+	outline: none;
+}
+.section{
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+.section-content{
+	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/footer_lodyas.png");
+}
+.section-content>main{
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 1024px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+.section-content>main>h1{
+	font-size: 1.7em;
+	font-family: Lobster;
+	background: linear-gradient(561deg, rgb(247, 103, 0) 42%, rgb(226, 81, 183) 58%, rgb(199, 36, 36));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.section-content p {
+	font-family: Roboto;
+}
+
+
+.sect_1{
+	background-image: url(../img/mal1.jpg);
+}
+.sect_2{
+	/*background-image: url(../img/mal3.jpg);*/
+	position: relative;
+}
+.sect_2 img{
+	position: absolute;
+	width: 100%;
+	top: -350px;
+
+}
+.sect_3{
+	background-image: url(../img/mal2.jpg);
+	
+}
+
+									/*HEADER*/
+header{
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(60, 57, 57, 0.81);
+
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.logo{
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: center;
+}
+.logo>img{
+	width: 16%;
+	height: 100%;
+
+}
+.slogan>h1{
+	font-family: Thunder;
+	font-size: 3em;
+	width: 300px;
+	font-weight: normal;
+	height: 50px;
+	background: linear-gradient(373deg, rgb(247, 103, 0) 12%, rgb(226, 81, 183) 39%, rgb(199, 36, 36));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	line-height: 47%;
+	margin-bottom: 0;
+}
+.slogan>h3{
+	font-family: Lobster;
+	color: white;
+	font-size: 1em;
+	width: 300px;
+	font-weight: normal;
+}
+.header-menu{
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.header-menu a{
+	text-shadow: 1px 0px 3px grey;
+	border-right: 2px solid grey;
+	text-decoration: none;
+	color: white; 
+	padding: 0px 30px;
+	font-size: .7em;
+}
+.header-menu :last-child{
+	border: 0px;
+}
+.header-text{
+	color: white;
+	margin: 0 auto;
+
+}
+
+					/*Gooods menu*/
+.goods{
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.item{
+	cursor: pointer;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.12);
+	min-width: 150px;
+	max-width: 250px;
+	display: flex;
+	align-items: center;
+	opacity: 0;
+	transform: translateY(90px);
+	transition: all 0.4s ease-in-out;
+}
+.is-showing{
+	opacity: 1;
+
+	transform: translateY(0px);
+}
+.item>img{
+	opacity: .8;
+	display: block;
+	width: 100%;
+	height: auto;
+	transform: scale(1);
+	transition: all 300ms ease-in-out;
+}
+.item>img:hover{
+
+	transform: scale(.7);
+	opacity: 1;
+	transition: all 300ms ease-in-out;
+}
+/*section #2 History*/
+.history{
+	margin:100px auto; 
+	width: 45%;
+	height: 450px;
+	border-radius: 68px; 
+
+	background-image: url(../img/history/brig.png);
+	background-size: 45%;
+	background-position: bottom center;
+	background-repeat: repeat-y;
+	background-attachment: fixed; 
+}
+
+/*.history img{
+ margin: 0 auto;
+}*/
+
+
+/*section #3*/
+.sect_3{
+	font-size: 25px;
+	}
+.transparent-text {
+		font-family: Gag, 'Rubik One', sans-serif;
+		font-size: 2.8em;
+		text-transform: uppercase;
+		background: #2E2F45;
+		display: table;
+		margin: 20px auto;
+		color: white;
+		border-radius: 5px;
+		mix-blend-mode: multiply;
+		padding: 5px 10px;
+ }
+#goodsSize{
+	font-size: 2.5em;
+}
+
+/*Foooter*/
+.footer-roll{
+	margin-bottom: 200px;
+}
+footer{
+	z-index: -1;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background: url(https://www.toptal.com/designers/subtlepatterns/patterns/topography.png);
+}
+.footerwrp{
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+	
+}
+.footerwrp p{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	padding: 10px;
+}
+.foot-col{
+	padding: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+.foot-col a{
+	text-decoration: none;
+	color: grey;
+	font-size: 18px;
+}
+
+.foot-col li{
+	list-style: none;
+}
+
+.foot-col strong{
+	padding: 5px 0px;
+}
+/*footer icons*/
+#tw{
+ list-style-image: url(../img/icons/twitter.png);
+}
+#fb{
+ list-style-image: url(../img/icons/facebook.png);
+}
+#pb{
+ list-style-image: url(../img/icons/pablobook.png);
+}
+.not-a-logo a{
+	line-height: 27px;
+}
+/*media queries*/
+@media screen and (max-width: 600px){
+	.history {background-size: 75%;}
+}

@@ -1,0 +1,37 @@
+.wrapper{
+	width: 600px;
+	margin: 0 auto;
+
+}
+#slider{
+	margin: 30 auto;
+	width:600px;
+	height: 400px;
+	overflow: hidden;
+}
+#slider>img{
+	width: 600px;
+	height: 400px;
+	display: none;
+}
+.buttons{
+	display: flex;
+	margin: 15 auto;
+	justify-content: space-between;
+}
+/*.buttons>input{
+	border-radius: 10%;
+	background-color: #e7d3d3;
+	font-weight: 400;
+	min-width: 50px;
+	padding: 15px;
+	font-size: 20px;
+	opacity: .8;
+	color: #666;
+}*/
+.buttons>input{
+	font-size: 3em;
+}
+#goodsSize{
+	font-size: 2em;
+}

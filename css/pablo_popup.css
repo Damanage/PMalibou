@@ -1,0 +1,45 @@
+.white-popup {
+  height: 500px;
+  position: relative;
+
+  background: url(../img/404.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+
+  padding: 20px;
+  width: auto;
+  max-width: 700px;
+  margin: 20px auto;
+}
+.popup-wrapper{
+	max-width: 700px;
+	display: flex;
+	align-items: center;
+}
+.popup-wrapper>img{
+	width:50%;
+	height: 100%;
+	border: 4px solid;
+	border-image: linear-gradient(387deg, rgba(243, 88, 83, 0.99) 52%, rgba(245, 103, 227, 0.98) 63%, rgb(245, 89, 132) 88%);
+    border-image-slice: 1;
+}
+.market-logo>h2{
+    font-family: Thunder;
+    text-align: center;
+    font-size: 100px;
+    font-weight: normal;
+    background: linear-gradient(378deg, rgb(247, 103, 0) 33%, rgb(226, 81, 183) 66%, rgb(199, 36, 36));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.market-logo>h3{
+
+	font-family: Lobster;
+	text-align: center;
+	background: linear-gradient(181deg, rgb(251, 64, 23) 38%, rgb(226, 104, 189) 66%, rgb(245, 140, 240));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: normal;
